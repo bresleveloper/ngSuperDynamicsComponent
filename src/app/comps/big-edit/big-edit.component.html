@@ -1,0 +1,19 @@
+
+
+<div *ngIf="ready">
+    <h2>I am big-edit</h2>
+    <div>
+        <div *ngFor="let r of rows" style="border:1px solid green">
+            <h3>{{r.title}}</h3>
+            <div class="flex">
+                <div *ngFor="let f of r.fields" class="flex-col">
+                    <span style="font-weight:bold">{{f.displayName}}</span>
+                    <br>
+                    <span>{{item[f.propertyName]}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div #bigContainer></div>
+</div>

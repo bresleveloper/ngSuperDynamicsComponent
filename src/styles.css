@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+body{width: 40%;margin: 50px auto;text-align: center;font-size: 1.2em;}
+.flex{display: flex; justify-content: space-around;}
+.flex-col{display: flex; justify-content: space-around;flex-direction: column}
+
+nav{display: flex;    justify-content: space-around;}
+nav > a{background: black;color: white;display: block;padding: 10px 20px;cursor: pointer;}
+
+code{font-size: 1.2em;color: aquamarine;}

@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'super-dynamics-components';
+  page:number=1
 }
